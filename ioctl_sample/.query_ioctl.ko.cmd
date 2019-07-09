@@ -1,0 +1,1 @@
+cmd_/home/motoya/testkocl/ioctl_sample/query_ioctl.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/motoya/testkocl/ioctl_sample/query_ioctl.ko /home/motoya/testkocl/ioctl_sample/query_ioctl.o /home/motoya/testkocl/ioctl_sample/query_ioctl.mod.o ;  true
